@@ -1,0 +1,37 @@
+.menuIcon .MuiDrawer-paper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #171717f2;
+  color: white;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.menuIcon .MuiPaper-root .css-fiov70 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.menuIcon .MuiPaper-root .css-fiov70 .MuiButtonBase-root {
+  color: white;
+}
+.menuIcon .deskBackground {
+  width: 100wh;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+.menuIcon .MuiPaper-root.MuiAppBar-root {
+  background-color: transparent;
+  box-shadow: unset;
+}
+.menuIcon .MuiTypography-root {
+  font-family: "Holtwood One SC", serif;
+  font-size: 25px;
+}
+
+@media (max-width: 600px) {
+  .menuIcon .MuiTypography-root {
+    font-size: 15px;
+  }
+}
