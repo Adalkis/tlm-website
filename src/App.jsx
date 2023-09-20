@@ -5,7 +5,7 @@ function App() {
   return (
     <BrowserRouter >
       <Routes>
-        <Route path="https://adalkis.github.io/tlm-website/" element={<HomePage/>}/>
+        <Route path="/tlm-website/" element={<HomePage/>}/>
       </Routes>
     </BrowserRouter>
   )
