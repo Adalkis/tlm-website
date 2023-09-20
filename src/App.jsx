@@ -3,9 +3,9 @@ import HomePage from "./pages/HomePage"
 function App() {
 
   return (
-    <BrowserRouter >
+    <BrowserRouter basename="/tlm-website">
       <Routes>
-        <Route path="/tlm-website/" element={<HomePage/>}/>
+        <Route path="/" element={<HomePage/>}/>
       </Routes>
     </BrowserRouter>
   )
