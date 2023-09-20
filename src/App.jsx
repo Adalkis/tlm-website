@@ -3,7 +3,7 @@ import HomePage from "./pages/HomePage"
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter >
       <Routes>
         <Route path="https://adalkis.github.io/tlm-website/" element={<HomePage/>}/>
       </Routes>
