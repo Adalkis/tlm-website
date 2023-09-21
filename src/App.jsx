@@ -5,7 +5,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomePage/>}/>
+        <Route path="/tlm-website/" element={<HomePage/>}/>
       </Routes>
     </BrowserRouter>
   )
