@@ -93,27 +93,25 @@ export default function PersistentDrawerLeft({isMobile}) {
         </Toolbar>
       </AppBar>
       <Main open={open}>
-        <video
-            className='deskBackground'
-            autoPlay
-            loop
-            muted
-          >
-            {!isMobile ? 
-            <>
-            <h1>hola</h1>
-              <source
-                src={deskBackground}
-                type="video/mp4"
-              />
-            </>
-              :
-              <source
-                src={mobBackground}
-                type="video/mp4"
-              />
-            }
-          </video>
+      {!isMobile ? 
+      <video
+      className='deskBackground'
+       loop
+       muted
+       autoPlay
+       playsInline
+       src={deskBackground}
+     />
+     :
+      <video
+         className='deskBackground'
+          loop
+          muted
+          autoPlay
+          playsInline
+          src={mobBackground}
+        />
+      }
       </Main>
       <Drawer
         sx={{
